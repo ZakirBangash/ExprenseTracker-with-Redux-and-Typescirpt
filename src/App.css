@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +36,129 @@
   100% {
     transform: translateY(0px);
   }
+} */
+
+
+
+
+
+
+
+
+.container{
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: relative;
+  top: 10px;
+  width: 20%;
+  max-width: 400px;
+  min-height: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow:  inset 0 0 10px #924d4d;
+  margin:0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+.text-center{
+  text-align: center;
+}
+.Expense{
+  display: flex;
+  justify-content: space-around;
+}
+.Expense .incomeC {
+  color: rgb(54, 197, 66)
+}
+
+.Expense .expenseC {
+  color: red;
+}
+
+.transaction{
+  margin:0;
+  padding:0;
+}
+.transaction >li{
+  /* list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  margin-top:5px;
+  background-color: white;
+  
+  border-right: 5px solid rgb(55, 173, 91);
+   */
+
+   
+    background-color: #fff;
+    
+     box-shadow: 0 10px 6px -8px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+  
+}
+
+.btnX {
+
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.transaction li:hover .btnX {
+opacity: 1;
+}
+
+
+.expensein{
+  background-color: white;
+  box-shadow: 0 8px 6px -6px black;
+  margin-bottom: 50px;
+}
+
+.transaction-form > label > input{
+  width: 100%;
+  margin-top: 10px;
+  padding:7px 0;
+}
+
+.transaction-form >  input{
+  width: 100%;
+  margin-top: 10px;
+  padding:7px 0;
+}
+
+
+
+.transaction-form  .btn{
+  background-color: #008CBA;
+  outline: none;
+}
+
+.transaction_container{
+  margin-top: 30px;
+}
+
+
+
+/* .display{
+  display: flex;
+  justify-content: space-between;
+} */
